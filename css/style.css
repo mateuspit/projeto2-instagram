@@ -1,0 +1,669 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* .stories img:nth-child(1){
+    width: 33px;
+    height: 33px;
+    z-index: 2;
+} */
+
+#malditaSeta{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+    right: 6px;
+    top: 43px;
+}
+
+
+.siteDesktop{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSideIcon img{
+    padding-right: 10px;
+    border-right: solid 1px #DBDBDB;
+}
+
+.leftSideLogo img{
+    padding-left: 10px;
+    /* border-right: solid 1px #DBDBDB; */
+}
+
+.containerMenu{
+    /* background-color: #139EF2; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    width: 935px;
+    margin: 0 auto;
+}
+
+.menuFixed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 53px; /*add 1px de borda*/
+    position: fixed;
+    border-bottom: solid 1px #DBDBDB;
+    z-index: 5;
+}
+
+/* .rightSideIcons{
+    margin-left: 20px;
+    padding-right: 216px;
+} */
+
+/* .menuSupRightSide{ */
+    /* margin-right: 15%; */
+    /* padding-right: 216px; */
+    /* background-color: blue; */
+/* } */
+
+::placeholder{
+    color: #979797;
+}
+
+input{
+    /* color: #979797; */
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    height: 24px;
+    width: 209px;
+}
+
+.menuSupLeftSide{
+    /* margin-left: 215px; */
+    /* margin-right: 215px; */
+    display: flex;
+    /* background-color: red; */
+}
+
+/* .menuSupSearch{
+    background-color: green;;
+} */
+
+.rightSideIcons ion-icon{
+    margin-left: 20px;
+    /* padding-right: 216px; */
+}
+
+.content{
+    /* width: 614px+293px+28px; */
+    width: 935px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainLeftColumn{
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+}
+
+.stories{
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 612px;
+    height: 116px;
+    margin-bottom: 24px;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* padding-left: 18px; */
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    position: relative;
+}
+
+.storiesIconText{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.storiesProfile{
+    height: 86px;
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    position: relative;
+    margin-right: 14px;
+    margin-top: 18px;
+}
+
+#firstStoriesProfile{
+    margin-left: 18px;
+}
+
+.storiesNickname{
+    font-size: 12px;
+}
+
+/* .storiesUsernameProfile{
+    margin-top: 85px;
+    margin-left: 21px;
+} */
+
+
+
+
+.storiesIconProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plato{
+    width: 20px;
+    height: 20px;
+}
+
+.titleSidebar{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #262626;
+}
+
+.followStatus{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8E8E8E;    
+}
+
+#ludoviajante{
+    width: 612px;
+}
+#follow{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8E8E8E;    
+}
+
+.titleSidebarBold{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+
+.textFollowbutton{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #139EF2;
+}
+
+.textPublishButton{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    /* color: #139EF2; */
+    color: #b5dcff;
+}
+
+.textPublishButton:hover{
+    color: #139EF2;    
+}
+
+.emojiPublicar{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.inputPublicar{
+    margin-right: 10px;
+}
+
+
+
+.posts{
+    background-color: #ffffff;
+    width: 612px;
+    border: solid 1px #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+/* .post{
+} */
+
+
+
+.infoPosts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+}
+
+.infoPosts p{
+    margin-left: 15px;
+}
+
+.leftInfos{
+    display: flex;
+    align-items: center;
+}
+
+.leftInfos p{
+    color:#262626;
+    font-size: 14px;
+    font-weight: 500; /*medium=500*/
+}
+
+.subtitlesPosts{
+    font-size: 14px;
+    color: #000000;
+}
+
+.imgPosts img{
+    width: 612px;
+    height: 612px;
+} 
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: fixed;
+}
+
+.sidebarHeader{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.iconSuggestion{
+    margin-right: 11px;
+}
+
+.textFollowbutton{
+    margin-top: 10px;
+}
+
+.iconSuggestion img{
+    margin-right: 20pxs;
+}
+
+.statsSuggestion{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.storiesBorder img{
+    width: 66px;
+    height: 66px;
+    border-radius: 33px;
+    z-index: 0;
+}
+
+
+
+
+
+/* .storiesPhoto img:nth-child(1){ 
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    top: 5px;
+}
+.storiesPhoto img:nth-child(2){ 
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+} */
+
+/* .storiesPhoto{
+    background-color: green;
+} */
+
+.storiesPhoto img:nth-child(2){
+    width: 66px;
+    height: 66px;
+}
+
+.storiesPhoto img:nth-child(1){ 
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    top: 5px;
+}
+
+#menuFooter{
+    margin-top: 0px; /*33-16*/
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+
+#copyrights{
+    margin-top: 18px; /*33-16*/
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+}
+
+
+.suggestion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebarSuggestions{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    
+    margin-top: 17px;
+    margin-bottom: 16px;
+}
+
+.suggestions{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+
+.seeAllSuggestions{
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.suggestion{
+    margin-bottom: 16px;
+}
+
+.textSuggestion{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidebarTitles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sideBarUp{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarHeader img{
+    margin-right: 15px;
+}
+
+
+.iconMenuPosts{
+    font-size: 22px;
+}
+
+.menuPosts{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+.subtitlesPosts{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
+.subtitlesPosts span{
+    /* margin-left: 10px; */
+    font-size: 14px;
+    font-weight: 500;
+} 
+
+span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.seeComments{
+    margin-bottom: 2px;
+    margin-top: 7px;
+    color: #8e8e8e;
+}
+
+.postTime{
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.postTime{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.legenda{
+    margin-top: 5px;
+}
+
+#socrates {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.statsPosts{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.postsOptions{
+    margin-left: 15px;
+    margin-right: 17px;
+    margin-bottom: 13px;
+}
+
+.comentariosPosts{
+    margin-left: 15px;
+    margin-right: 17px;    
+}
+
+.publicarPosts{
+    margin-left: 15px;
+    margin-right: 17px;  
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+
+.mainRightColumn{
+    width: 293px;
+}
+
+@media (max-width: 935px){
+    .mainRightColumn{
+        /* background-color: red; */
+        display: none;
+    }
+
+    .mainLeftColumn{
+        margin: 0 auto;
+        /* width: 100%; */
+    }
+
+    .containerMenu{
+        width: 100%;
+        margin: 0 2%;
+    }
+
+    .content{
+        margin-left: auto ;
+        margin-right: auto ;
+        width: 100%;
+    }
+
+    .mainLeftColumn{
+        margin-left: auto ;
+        margin-right: auto;
+        /* background-color: red; */
+    }
+
+    /* .stories{
+        width: 100%;
+    } */
+
+    .storiesProfile{
+        width: 100%;
+    }
+
+    .storiesPhoto{
+        width: 100%;
+    }
+
+    .posts{
+        width: 100%;
+    }
+
+    .imgPosts img{
+        width: 100%;
+        height:auto;
+    } 
+    #ludoviajante{
+        width: 100%;
+        height:auto;        
+    }
+}
+
+/**************
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+@media (max-width: 614px){
+    .mainLeftColumn{
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+    .mainRightColumn{
+        display: none;
+    }
+
+    /* .containerMenu{
+    } */
+
+    .mainLeftColumn{
+        margin: 0 auto;
+        /* background-color: red; */
+    }
+
+    .stories{
+        width: 100%;
+    }
+
+    .content{
+        margin-top: 54px;
+        width: 100%;
+    }
+
+    .rightSideIcons{
+        margin-right: 10px;
+    }
+
+    .leftSideIcon img{
+        padding: none;
+        border: none;
+        /* margin-top: 16px; */
+        margin-left: 20px;
+    }
+
+    .leftSideLogo{
+        /* display: none; */
+        margin-left: 100%;
+    }
+
+    .menuSupSearch{
+        display: none;
+    }
+
+    .rightSideIcons ion-icon:nth-child(2){
+        display: none;
+    }
+
+    .rightSideIcons ion-icon:nth-child(3){
+        display: none;
+    }
+
+    .rightSideIcons ion-icon:nth-child(4){
+        display: none;
+    }
+
+    .stories{
+        width: 100%;
+    }
+
+    .storiesProfile{
+        width: 100%;
+    }
+
+    .storiesPhoto{
+        width: 100%;
+        /* height: auto; */
+    }
+
+    .posts{
+        width: 100%;
+    }
+    /* .stories{
+        width: 100%;
+    }
+    .imgPosts{
+        width: 100%;
+    } */
+
+    #malditaSeta{
+        display: none;
+    }
+}
